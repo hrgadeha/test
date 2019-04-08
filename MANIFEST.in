@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include promo_rule *.css
+recursive-include promo_rule *.csv
+recursive-include promo_rule *.html
+recursive-include promo_rule *.ico
+recursive-include promo_rule *.js
+recursive-include promo_rule *.json
+recursive-include promo_rule *.md
+recursive-include promo_rule *.png
+recursive-include promo_rule *.py
+recursive-include promo_rule *.svg
+recursive-include promo_rule *.txt
+recursive-exclude promo_rule *.pyc
